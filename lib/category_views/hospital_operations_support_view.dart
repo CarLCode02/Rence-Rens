@@ -31,7 +31,7 @@ class _HospitalOperationsSupportViewState
           const [
         'Corrective Maintenance of Information and Communication Technology(ICT) Equipment',
         'Fabrication of Linen',
-        'Issuance of Clean Linen',
+        'Issuance of Clean Linens',
         'Leave of Absence Application',
         'Monitoring of Infrastructure Projects',
         'Payment of Infrastructure Projects Billing',
