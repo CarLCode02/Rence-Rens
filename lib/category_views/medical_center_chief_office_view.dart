@@ -21,11 +21,8 @@ class _MedicalCenterChiefOfficeViewState
   String? opened;
  //list of the directories listed in String Declaration
   static const String _chiefOfficePdf1 =
-      'assets/pdfs/medical_center_chief_office_1.pdf';
-   static const String _chiefOfficePdf2 =
-       'assets/pdfs/medical_center_chief_office_2.pdf';
-  static const String _chiefOfficePdf3 =
-     'assets/pdfs/medical_center_chief_office_3.pdf';
+      'assets/dummy.pdf';
+
 
 // Service textbutton List 
   List<String> get services {
@@ -74,8 +71,7 @@ class _MedicalCenterChiefOfficeViewState
       // Declaration of the button in the list in index calling
     final selected = opened;
     final isFirstButton = selected == services.first;
-     final isSecondButton = selected == services[1];
-     final isThirdButton = selected == services[2];
+
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -88,10 +84,7 @@ class _MedicalCenterChiefOfficeViewState
           // List of button and Calling its View Declared assets
             child: isFirstButton
                 ? _pdfPreview(assetPath: _chiefOfficePdf1)
-                 : isSecondButton
-                     ? _pdfPreview(assetPath: _chiefOfficePdf2)
-                 : isThirdButton
-                     ? _pdfPreview(assetPath: _chiefOfficePdf3)
+
                 : Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [

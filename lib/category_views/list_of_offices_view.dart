@@ -13,7 +13,7 @@ class ListOfOfficesView extends StatefulWidget {
 class _ListOfOfficesViewState extends State<ListOfOfficesView> {
   String? opened;
 
-  static const String _pdf1 = 'assets/pdfs/list_of_offices_1.pdf';
+  static const String _pdf1 = 'assets/list_of_offices_1.pdf';
 
   List<String> get services {
     return widget.buttonNames ??
