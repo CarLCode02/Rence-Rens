@@ -30,15 +30,28 @@ class _HospitalOperationsSupportViewState
       return widget.internalButtonNames ??
           const [
         'Operations (Internal) - Housekeeping',
-        'Fabrication of Linen',
+        'Operations (Internal) - Security / Safety',
         'Operations (Internal) - Facility Support',
       ];
     }
     return widget.externalButtonNames ??
         const [
-      'Operations (External) - Ambulance / Transport',
-      'Operations (External) - Billing / Cashier',
-      'Operations (External) - Records Request',
+      'Access to Closed–Circuit Television Image/Footage',
+      'Acceptance of Job Application',
+      'Issuance of Official Receipt',
+      'PhilHealth Registration and Status Updating',
+      'PhilHealth Status Verification',
+      'Preparation of Order of Payment',
+      'Preparation of Statement of Account',
+      'Processing of Disbursement Vouchers',
+      'Processing of In-Patient PhilHealth Claims',
+      'Processing of Out-Patient PhilHealth Claims',
+      'Procurement Procedure Through Competitive Bidding',
+      'Procurement Procedure for Alternative Mode of Procurement - Small Value Procurement/Shopping (Walk-in Suppliers)',
+      'Purchasing of Bidding Documents Through Manual Payment',
+      'Purchasing of Bidding Documents Through Online Payment',
+      'Receiving of Deliveries, Supplies, Materials and Equipment',
+      'Releasing of Checks',
     ];
   }
 
