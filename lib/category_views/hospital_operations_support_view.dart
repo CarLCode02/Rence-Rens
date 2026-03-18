@@ -39,7 +39,7 @@ class _HospitalOperationsSupportViewState
         'Processing of Obligation Request and Status (ORS)/Budget Utilization Request and Status(BURS)',
         'Processing of Payrolls',
         'Processing of Purchase Orders (Bidding)',
-        'Processing of Purchase Orders (Simple Value Procurement)',
+        'Processing of Purchase Orders (Simple Value Procurement',
         'Processing of Request for Documents/Records of Employees',
         'Processing of Service Request per Project/Activity in the Carpentry Section',
         'Processing of Service Request per Project/Activity in the Medical Equipment Maintenance Unit',
