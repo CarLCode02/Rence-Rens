@@ -18,9 +18,8 @@ class _FeedbackComplaintsViewState extends State<FeedbackComplaintsView> {
   List<String> get services {
     return widget.buttonNames ??
         const [
-      'Feedback - Submit a Complaint',
-      'Feedback - Track My Report',
-      'Feedback - Guidelines / Help',
+      'View FeedBack File',
+
     ];
   }
 
@@ -101,12 +100,12 @@ class _FeedbackComplaintsViewState extends State<FeedbackComplaintsView> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 const Text(
-                  'PDF not found in assets yet.',
+                  'mayo',
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Paste your PDF here and re-run:\n$assetPath',
+                  'mayo pa si file sa asset folder:\n$assetPath',
                   textAlign: TextAlign.center,
                   style: const TextStyle(color: Colors.grey),
                 ),
