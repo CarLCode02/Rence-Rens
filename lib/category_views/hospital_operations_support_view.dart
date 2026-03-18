@@ -29,9 +29,26 @@ class _HospitalOperationsSupportViewState
     if (type == 'Internal Services') {
       return widget.internalButtonNames ??
           const [
-        'Operations (Internal) - Housekeeping',
-        'Operations (Internal) - Security / Safety',
-        'Operations (Internal) - Facility Support',
+        'Corrective Maintenance of Information and Communication Technology(ICT) Equipment',
+        'Fabrication of Linen',
+        'Issuance of Clean Linen',
+        'Leave of Absence Application',
+        'Monitoring of Infrastructure Projects',
+        'Payment of Infrastructure Projects Billing',
+        'Preparation of Payroll for Non-Permanent Employees',
+        'Processing of Obligation Request and Status (ORS)/Budget Utilization Request and Status(BURS)',
+        'Processing of Payrolls',
+        'Processing of Purchase Orders (Bidding)',
+        'Processing of Purchase Orders (Simple Value Procurement)',
+        'Processing of Request for Documents/Records of Employees',
+        'Processing of Service Request per Project/Activity in the Carpentry Section',
+        'Processing of Service Request per Project/Activity in the Medical Equipment Maintenance Unit',
+        'Processing of Service Request per Project/Activity in the Plumbing Section',
+        'Releasing of Cash Benefits',
+        'Replacement of Identification Card',
+        'Requisition and Issuance of Supplies, Materials and Equipment',
+        'Request for Motor Vehicle for Emergency Referral',
+        'Request of Motor Vehicle for Official Business',
       ];
     }
     return widget.externalButtonNames ??
