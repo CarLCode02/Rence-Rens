@@ -18,10 +18,8 @@ class _ListOfOfficesViewState extends State<ListOfOfficesView> {
   List<String> get services {
     return widget.buttonNames ??
         const [
-      'Office List - Administration',
-      'Office List - Billing',
-      'Office List - Medical Records',
-      'Office List - Nursing',
+      'View List of Offices',
+      
     ];
   }
 
@@ -102,12 +100,12 @@ class _ListOfOfficesViewState extends State<ListOfOfficesView> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 const Text(
-                  'PDF not found in assets yet.',
+                  'uda',
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Paste your PDF here and re-run:\n$assetPath',
+                  'uda pa su file sadto folder asset\n$assetPath',
                   textAlign: TextAlign.center,
                   style: const TextStyle(color: Colors.grey),
                 ),
