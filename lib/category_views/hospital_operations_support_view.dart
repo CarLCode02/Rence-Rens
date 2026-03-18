@@ -29,16 +29,46 @@ class _HospitalOperationsSupportViewState
     if (type == 'Internal Services') {
       return widget.internalButtonNames ??
           const [
-        'Operations (Internal) - Housekeeping',
-        'Operations (Internal) - Security / Safety',
-        'Operations (Internal) - Facility Support',
+        'Corrective Maintenance of Information and Communication Technology(ICT) Equipment',
+        'Fabrication of Linen',
+        'Issuance of Clean Linen',
+        'Leave of Absence Application',
+        'Monitoring of Infrastructure Projects',
+        'Payment of Infrastructure Projects Billing',
+        'Preparation of Payroll for Non-Permanent Employees',
+        'Processing of Obligation Request and Status (ORS)/Budget Utilization Request and Status(BURS)',
+        'Processing of Payrolls',
+        'Processing of Purchase Orders (Bidding)',
+        'Processing of Purchase Orders (Simple Value Procurement)',
+        'Processing of Request for Documents/Records of Employees',
+        'Processing of Service Request per Project/Activity in the Carpentry Section',
+        'Processing of Service Request per Project/Activity in the Medical Equipment Maintenance Unit',
+        'Processing of Service Request per Project/Activity in the Plumbing Section',
+        'Releasing of Cash Benefits',
+        'Replacement of Identification Card',
+        'Requisition and Issuance of Supplies, Materials and Equipment',
+        'Request for Motor Vehicle for Emergency Referral',
+        'Request of Motor Vehicle for Official Business',
       ];
     }
     return widget.externalButtonNames ??
         const [
-      'Operations (External) - Ambulance / Transport',
-      'Operations (External) - Billing / Cashier',
-      'Operations (External) - Records Request',
+      'Access to Closed–Circuit Television Image/Footage',
+      'Acceptance of Job Application',
+      'Issuance of Official Receipt',
+      'PhilHealth Registration and Status Updating',
+      'PhilHealth Status Verification',
+      'Preparation of Order of Payment',
+      'Preparation of Statement of Account',
+      'Processing of Disbursement Vouchers',
+      'Processing of In-Patient PhilHealth Claims',
+      'Processing of Out-Patient PhilHealth Claims',
+      'Procurement Procedure Through Competitive Bidding',
+      'Procurement Procedure for Alternative Mode of Procurement - Small Value Procurement/Shopping (Walk-in Suppliers)',
+      'Purchasing of Bidding Documents Through Manual Payment',
+      'Purchasing of Bidding Documents Through Online Payment',
+      'Receiving of Deliveries, Supplies, Materials and Equipment',
+      'Releasing of Checks',
     ];
   }
 
