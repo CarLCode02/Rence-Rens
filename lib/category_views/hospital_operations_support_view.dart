@@ -30,7 +30,7 @@ class _HospitalOperationsSupportViewState
       return widget.internalButtonNames ??
           const [
         'Operations (Internal) - Housekeeping',
-        'Operations (Internal) - Security / Safety',
+        'Fabrication of Linen',
         'Operations (Internal) - Facility Support',
       ];
     }
